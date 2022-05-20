@@ -1,0 +1,12 @@
+function add(x,y) {
+    x=1;
+    y=2;
+    return x+y;
+}
+add();
+
+const addTo = x => y => x + y
+var addToTen = addTo(10)
+addToTen(3)
+
+Answer: 13
